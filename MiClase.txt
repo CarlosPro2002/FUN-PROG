@@ -1,0 +1,7 @@
+public class MiClase{
+ 
+       public static void mian(String[] args){
+
+              System.out.println("Hola Mundo");
+      }
+}
