@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="carlo"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-10-02 07:24:40 p. m."/>
+        <attribute name="saved" value="2023-10-02 07:27:29 p. m."/>
         <attribute name="created" value="Y2FybG87REVTS1RPUC1GNjE4NEVOOzIwMjMtMTAtMDI7MDc6MTQ6NDcgcC4gbS47MzAwNQ=="/>
-        <attribute name="edited" value="Y2FybG87REVTS1RPUC1GNjE4NEVOOzIwMjMtMTAtMDI7MDc6MjQ6NDAgcC4gbS47MTszMTA3"/>
+        <attribute name="edited" value="Y2FybG87REVTS1RPUC1GNjE4NEVOOzIwMjMtMTAtMDI7MDc6Mjc6MjkgcC4gbS47MjszMTE4"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -22,6 +22,7 @@
                     <output expression="&quot;Sonso reprobado&quot;" newline="True"/>
                 </else>
             </if>
+            <output expression="&quot;Fin del programa&quot;" newline="True"/>
         </body>
     </function>
 </flowgorithm>
