@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="carlo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 07:21:44 p. m."/>
+        <attribute name="created" value="Y2FybG87REVTS1RPUC1GNjE4NEVOOzIwMjMtMTAtMDk7MDc6MDg6MDcgcC4gbS47MzAxMQ=="/>
+        <attribute name="edited" value="Y2FybG87REVTS1RPUC1GNjE4NEVOOzIwMjMtMTAtMDk7MDc6MjE6NDQgcC4gbS47MTszMTE1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Valor1" type="Integer" array="False" size=""/>
+            <declare name="Valor2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce el valor 1&quot;" newline="True"/>
+            <input variable="Valor1"/>
+            <output expression="&quot;Introduce el valor 2&quot;" newline="True"/>
+            <input variable="Valor2"/>
+            <if expression="Valor1 &gt; Valor2">
+                <then>
+                    <output expression="&quot;El valor mas grande es&quot;" newline="False"/>
+                    <output expression="Valor1" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Valor1 = Valor2">
+                        <then>
+                            <output expression="Valor1" newline="True"/>
+                            <output expression="&quot;Es igual que&quot;" newline="False"/>
+                            <output expression="Valor2" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;El valor mas peque&#241;o es&quot;" newline="False"/>
+                            <output expression="Valor1" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
